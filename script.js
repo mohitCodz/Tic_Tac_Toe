@@ -13,6 +13,7 @@ const winPatterns = [
     [0, 4, 8], [2, 4, 6]
 ]
 
+// adding event listener
 boxes.forEach((box) => {
     box.addEventListener("click", () => {
         if (turnO) { // playerO's turn
