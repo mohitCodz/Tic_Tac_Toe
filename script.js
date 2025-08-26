@@ -19,7 +19,7 @@ boxes.forEach((box) => {
         if (turnO) { // playerO's turn
             box.innerText = "O";
             turnO = false;
-        } else { // playerX's turn
+
             box.innerText = "X";
             turnO = true;
         }
