@@ -19,12 +19,6 @@ boxes.forEach((box) => {
         if (turnO) { // playerO's turn
             box.innerText = "O";
             turnO = false;
-            // playerX's turn
-            box.innerText = "X";
-            turnO = true;
-        }
-        box.disabled = true;
-        checkWinner();
     });
 });
 
